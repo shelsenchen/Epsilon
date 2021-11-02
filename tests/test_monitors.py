@@ -786,6 +786,7 @@ class TestClockRateMonitor(unittest.TestCase):
 
         cdr_dot_data = times ** 2
 
+
         metrics = [None, None, None, None, None, 7.0, 12.0, 14.0, 16.0, 18.0, None, 23.0]
         results = [None, None, None, None, None, True, True, True, True, True, None, True]
         alarms = [False, False, False, False, False, True, True, True, True, True, True, True]
